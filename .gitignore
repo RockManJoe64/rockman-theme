@@ -14,4 +14,4 @@ Gemfile.lock
 # Ignoring Jekyll files
 _sass/pico/
 _posts/
-index.markdown
+index.md
