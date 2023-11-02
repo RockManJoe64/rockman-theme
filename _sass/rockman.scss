@@ -1,11 +1,18 @@
 // Reference: https://getbootstrap.com/docs/5.2/customize/sass/#importing
-@import "../node_modules/bootstrap/scss/bootstrap";
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
-@font-face {
-  font-family: vt323;
-  src: url(VT323-Regular.ttf);
+// @font-face {
+//   font-family: vt323;
+//   src: url(VT323-Regular.ttf);
+// }
+
+:root {
+  --font-family-base: 'Ubuntu Mono', sans-serif;
+  --font-base-size: 1.1rem;
+  --background-color: rgb(15, 23, 42);
 }
 
 body {
-  font-family: vt323;
+  font-family: var(--font-family-base);
+  font-size: var(--font-base-size);
 }
