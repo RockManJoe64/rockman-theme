@@ -2,41 +2,36 @@
 
 A Jekyll theme for my GitHub pages.
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
 To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+First follow the instructions to add the [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme#usage) plugin to your Jekyll site.
 
-```ruby
-gem "rockman"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
+Then add the following to your site's `_config.yml` to activate the theme:
 
 ```yaml
-theme: rockman
+remote_theme: RockManJoe64/rockman-theme
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install rockman
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+This theme uses Bootstrap v5.3.2. To use Bootstrap in your site, add a _span inline attribute list_ to the end of your Markdown element. For example, to create a button, use the following syntax:
+
+```markdown
+[Button](#){: .btn .btn-primary}
+```
+
+Underneath the hood, Jekyll uses Kramdown to parse Markdown. Kramdown will use the _span inline attribute list_ to add the appropriate classes to the HTML element.
+
+Visit [Jekyll Tip: Adding Styling To Html Output](https://digitaldrummerj.me/styling-jekyll-markdown/) and
+[kramdown quick reference](https://kramdown.gettalong.org/quickref.html#inline-attributes) for more details.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rockman. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/RockManJoe64/rockman-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 

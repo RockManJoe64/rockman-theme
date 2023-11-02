@@ -12,6 +12,6 @@ vendor/
 Gemfile.lock
 
 # Ignoring Jekyll files
-_sass/pico/
 _posts/
+about.md
 index.md
