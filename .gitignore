@@ -12,6 +12,8 @@ vendor/
 Gemfile.lock
 
 # Ignoring Jekyll files
+_data/
 _posts/
 about.md
 index.md
+
