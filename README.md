@@ -29,6 +29,24 @@ Underneath the hood, Jekyll uses Kramdown to parse Markdown. Kramdown will use t
 Visit [Jekyll Tip: Adding Styling To Html Output](https://digitaldrummerj.me/styling-jekyll-markdown/) and
 [kramdown quick reference](https://kramdown.gettalong.org/quickref.html#inline-attributes) for more details.
 
+### Navbar
+
+To populate the navbar, add a file a data file to your site's `_data` directory called `navigation`. It can be any of the supported types (YAML, JSON, CSV, etc.).
+
+It needs to contain a list of links with the following attributes:
+
+- name: The name of the link
+- url: The URL of the link
+
+For example, create a file called `_data/navigation.yml` and add the following:
+
+````yaml
+- name: Home
+  url: /
+- name: About
+  url: /about
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/RockManJoe64/rockman-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
@@ -45,3 +63,4 @@ To add a custom directory to your theme-gem, please edit the regexp in `rockman.
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+````
