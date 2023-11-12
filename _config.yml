@@ -1,0 +1,21 @@
+title: Rockman Theme
+email: jose.e.chavez@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A clean, modern, and responsive Jekyll theme for your personal GitHub page. This theme is designed to showcase your work and your skills. It is easy to customize and can be adapted to fit your personal brand.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: rockmanjoe64
+github_username: rockmanjoe64
+
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - src/
+  - package.json
+  - package-lock.json
+  - pnpm-lock.yaml
+  - rockman.gemspec
+  - setup.sh
+  - LICENSE
+  - LICENSE.txt
+  - README.md

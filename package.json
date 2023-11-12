@@ -1,5 +1,19 @@
 {
+  "source": "src/index.js",
+  "main": "assets/main.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "targets": {
+    "main": {
+		  "optimize": true
+    }
+	},
   "dependencies": {
-    "bootstrap": "^5.3.2"
+    "bootstrap": "^5.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.2"
   }
 }
